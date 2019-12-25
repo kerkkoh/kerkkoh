@@ -5,87 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <title>&gt;kerkko.dev</title>
+    <title>&gt;portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <style>
-      body {
-        color: #eeeeee;
-        background: rgb(88, 11, 55);
-        font-family: "Zilla Slab", serif;
-        font-weight: 300 !important;
-  
-        /* Enable GPU Rendering */
-        -webkit-transform: translateZ(0);
-        -ms-transform: translateZ(0);
-        -o-transform: translateZ(0);
-        transform: translateZ(0);
-      }
-      .jumbo {
-        letter-spacing: -0.25rem;
-        line-height: 5.4rem;
-      }
-      .row {
-        background: rgba(34,34,34,0.4);
-      }
-      .no-bg {
-        background: none !important;
-      }
-      h4 {
-        text-decoration: underline;
-        font-weight: 300 !important;
-        margin-left: .5rem !important;
-        margin-bottom: 1rem !important;
-        letter-spacing: 0.12rem;
-      }
-      button {
-        cursor: default !important;
-      }
-      .btn-pinkish {
-        border-radius: 0;
-        color: #eeeeeeb0;
-        padding: .375rem .75rem;
-        border: 1px solid transparent;
-        font-size: 1rem;
-        background: linear-gradient(83deg, rgba(117, 1, 117, 0.68), rgba(209, 0, 114, 0.4));
-        -webkit-transition: color 0.5s;
-        transition: color 0.5s;
-      }
-      .btn-pinkish:hover {
-        border-radius: 0;
-        color: #eee;
-        background: linear-gradient(83deg, rgba(209, 0, 114, 0.4), rgba(117, 1, 117, 0.68));
-      }
-      .btn-pinkish:focus {
-        box-shadow: none;
-      }
-      a {
-        color: rgb(241, 35, 151);
-      }
-      a:hover {
-        color: rgb(160, 28, 103);
-      }
-      img {
-        width: 100% \9;
-      }
-      .grad {
-        top: 0;
-        left: 0;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: conic-gradient(from 90deg, rgb(53, 9, 43), #440133, #6B0D42, rgb(61, 11, 49));
-        -webkit-filter: blur(3rem);
-        -o-filter: blur(3rem);
-        filter: blur(3rem);
-        filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='70');
-        background-size: cover;
-        z-index: -2;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
   </head>
   <body>
+    <div class="modal d-none" id="screenshot" tabindex="-1" role="dialog">
+      
+    </div>
     <main class="container-fluid">
       <nav class="row p-2">
         <div class="col align-self-start">
@@ -96,7 +26,7 @@
         </div>
       </nav>
       <section class="row p-4 no-bg">
-        <h1 class="jumbo display-2 d-none d-sm-block">
+        <h1 class="jumbo display-humongous d-none d-sm-block">
           Just me,<br />
           <u>Kerkko,</u><br />
           a developer.
@@ -111,7 +41,7 @@
         <div class="col">
           <h4>&gt;about</h4>
           <p class="lead">I'm a full-stack developer based in Espoo, Finland. I'm currently a second-year student pursuing a bachelor's degree with a computer science major and a data science minor at <a href="https://www.aalto.fi/en/school-of-science">Aalto University</a>.</p class="lead">
-          <p class="lead">I love keeping things simple, minimalistic and no-nonsense. One of my passions is prototyping things quickly, and keeping development agile. On top of developing responsive sites, I am quite into designing them, and I have spent a considerable amount of time with <a href="https://icons8.com/lunacy">Lunacy</a> (roughly, Sketch for Windows) designing sites. In fact, this site was initially designed in Lunacy and the .sketch file is <a href="portfolio.sketch">here</a>!</p class="lead">
+          <p class="lead">I love keeping things simple, minimalistic and no-nonsense. I also dislike re-inventing the wheel. One of my passions is prototyping things quickly, and keeping development agile. On top of developing responsive frontends, I enjoy designing them, and I have spent a considerable amount of time with <a href="https://icons8.com/lunacy">Lunacy</a> (roughly, Sketch for Windows) designing sites. In fact, this site was initially designed in Lunacy and the .sketch file is <a href="portfolio.sketch">here</a>!</p class="lead">
           <p class="lead">I also have a weird hobby turned part-time job of modding games such as <a href="https://arma3.com/features/content-creation">Arma 3</a> and <a href="https://dayz.com/">DayZ</a>. This hobby has given me several years of experience designing complex systems, making game-ready 3D models, level design and comping up with interesting gameplay for complex game modes.</p>
         </div>
       </section>
@@ -119,7 +49,9 @@
           <h4 class="col-12">&gt;portfolio</h4>
           <div class="col-sm-6 col-xl-3">
             <h5 class="text-center mb-3">Aalto University Protocamp</h5>
-            <img class="img-fluid mb-1" src="img/sick.jpg" alt="A screenshot of the application's UI" />
+            <a href="img/sick.jpg" data-lightbox="sick">
+              <img class="img-fluid mb-1" src="img/sick.jpg" alt="A screenshot of the application's UI" />
+            </a>
             <p>
               Machine vision-based Lua project for recognizing and teaching objects (magazines) from live images, that works in an integrated system composed of SICK's machine vision camera. Completed using SICK's proprietary tools and libraries for object recognition. The end-users were supposed to be companies that needed to classify large amounts of magazines and sort them. Created in a team of five as a prototype for SICK.
               <a href="http://protopaja.aalto.fi/protopaja-2019/sick/">http://protopaja.aalto.fi/protopaja-2019/sick/</a>
@@ -127,7 +59,9 @@
           </div>
           <div class="col-sm-6 col-xl-3">
             <h5 class="text-center mb-3">Simple Clothing Store</h5 class="text-center">
-            <img class="img-fluid mb-1" src="img/scs.jpg" alt="Simple Clothing Store Screenshot" />
+            <a href="img/scs.jpg" data-lightbox="scs">
+              <img class="img-fluid mb-1" src="img/scs.jpg" alt="Simple Clothing Store Screenshot" />
+            </a>
             <p>
               A functional simple clothing store completed as a hobby project to allow for the easy sale of clothing items from an on-demand printing company Printful. Utilizes React for frontend, Node.js for backend, Printful REST API for completion of orders, and Paypal API for payments.
               <a href="https://github.com/kerkkoh/simple-clothing-store">https://github.com/kerkkoh/simple-clothing-store</a>
@@ -135,7 +69,9 @@
           </div>
           <div class="col-sm-6 col-xl-3">
             <h5 class="text-center mb-3">RPFramework</h5 class="text-center">
-            <img class="img-fluid mb-1" src="img/rpf.jpg" alt="RPFramework Advertisement" />
+            <a href="img/rpf.jpg" data-lightbox="rpf">
+              <img class="img-fluid mb-1" src="img/rpf.jpg" alt="RPFramework Advertisement" />
+            </a>
             <p>
               RPFramework is a modular open-source roleplaying mission, server, and addon framework for the game Arma 3. The framework allows Arma 3 modders to create their own modular and scalable modifications, missions and custom content to the game. It was built with modularity and scalability in mind, so building something on top of it is much like building a simple lego set where all pieces fit together nicely, and if it needs to be expanded, one can just add more pieces. On top of this, it uses a MySQL database for storing information.
               <a href="https://github.com/RPFramework/RPFramework">https://github.com/RPFramework/RPFramework</a>
@@ -143,7 +79,9 @@
           </div>
           <div class="col-sm-6 col-xl-3">
             <h5 class="text-center mb-3">The Terrain</h5 class="text-center">
-            <img class="img-fluid mb-1" src="img/tt.jpg" alt="Screenshot of The Terrain UI" />
+            <a href="img/tt.jpg" data-lightbox="tt">
+              <img class="img-fluid mb-1" src="img/tt.jpg" alt="Screenshot of The Terrain UI" />
+            </a>
             <p>
               A content sharing site made for an Arma 3 modding community. The site was never finished completely, but it implements a working functionality for registering, logging in, brute force login mitigation, profiles, articles, tutorials and sharing of links. The site has a Node.js backend that serves Handlebars templates, and the frontend uses jQuery for most actions. It also uses NeDB (MongoDB -like database) for a local database for cookies, accounts, etc.
               <a href="https://github.com/kerkkoh/theterrain">https://github.com/kerkkoh/theterrain</a>
@@ -205,5 +143,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>

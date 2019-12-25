@@ -1,0 +1,79 @@
+body {
+  color: #eeeeee;
+  background: rgb(88, 11, 55);
+  font-family: "Zilla Slab", serif;
+  font-weight: 300 !important;
+
+  /* Enable GPU Rendering */
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.jumbo {
+  letter-spacing: -0.25rem;
+  line-height: 5.4rem;
+  text-shadow: 3px 3px 4px rgba(77,0,48,0.7);
+  font-weight: 300;
+}
+.display-humongous {
+  line-height: 6.4rem;
+  font-size: 6.8rem;
+}
+.row {
+  background: rgba(34,34,34,0.4);
+}
+.no-bg {
+  background: none !important;
+}
+h4 {
+  text-decoration: underline;
+  font-weight: 300 !important;
+  margin-left: .5rem !important;
+  margin-bottom: 1rem !important;
+  letter-spacing: 0.12rem;
+}
+button {
+  cursor: default !important;
+}
+.btn-pinkish {
+  border-radius: 0;
+  color: #eeeeeeb0;
+  padding: .375rem .75rem;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  background: linear-gradient(83deg, rgba(117, 1, 117, 0.68), rgba(209, 0, 114, 0.4));
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.btn-pinkish:hover {
+  border-radius: 0;
+  color: #eee;
+  background: linear-gradient(83deg, rgba(209, 0, 114, 0.4), rgba(117, 1, 117, 0.68));
+}
+.btn-pinkish:focus {
+  box-shadow: none;
+}
+a {
+  color: rgb(241, 35, 151);
+}
+a:hover {
+  color: rgb(160, 28, 103);
+}
+img {
+  width: 100% \9;
+}
+.grad {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: conic-gradient(from 90deg, rgb(53, 9, 43), #440133, #6B0D42, rgb(61, 11, 49));
+  -webkit-filter: blur(3rem);
+  -o-filter: blur(3rem);
+  filter: blur(3rem);
+  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='70');
+  background-size: cover;
+  z-index: -2;
+}

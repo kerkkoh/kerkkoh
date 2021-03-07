@@ -77,3 +77,8 @@ img {
   background-size: cover;
   z-index: -2;
 }
+
+.at-mark {
+  width: 20px;
+  margin: 2.5px;
+}

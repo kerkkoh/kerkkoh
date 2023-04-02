@@ -3,7 +3,7 @@
 - 🏫 BSc in Computer Science, MSc thesis ongoing →
 - 👩‍💻 Actively working with TypeScript, Next.js, React, Python | C#, Blender, Substance 3D
 - 🇫🇮 Located in Helsinki, 😳 🇧🇪/🇳🇱 in the future
-- 📫 Reach me through emails or social media
+- 📫 Reach me through [emails](mailto:superihippo@gmail.com) or [social media](https://twitter.com/iamkerkkoh)
 - 🛠️ Active OS project: https://wartorn.me (Gameplay design, Level design)
 
 <!--

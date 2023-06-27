@@ -1,13 +1,15 @@
-### Hey ya （＾∀＾●）ﾉｼ 👋
+### Hey ya （＾∀＾●）ﾉｼ ✨👋
 
-- 🏫 BSc in Computer Science, MSc thesis ongoing →
-- 👩‍💻 Actively working with TypeScript, Next.js, React, Python | C#, Blender, Substance 3D
-- 🇫🇮 Located in Helsinki, 😳 🇧🇪/🇳🇱 in the future
+- 🧑‍🎓 MSc (~09/2023) & BSc (05/2021) in Computer Science, Master's thesis on AI, Bachelor's thesis on databases
+- 🤦 MSc diploma is arriving in autumn due to University hassle
+- 👩‍💻 Actively working with TypeScript, Next.js, React, Python, GPTs/LMMs, LangChain | C#, Blender, Substance 3D
+- 🇫🇮 Located in Helsinki, attempting to relocate to 🇧🇪/🇳🇱 ASAP
 - 📫 Reach me through [emails](mailto:superihippo@gmail.com) or [social media](https://twitter.com/iamkerkkoh)
-- 🛠️ Active OS project: https://wartorn.me (Gameplay design, Level design)
+- 😄 Pronouns: he/him, or any pronouns
+- 🛠️ Active OS project: https://wartorn.me (Gameplay design, Level design, Project Management)
 
 - 🖼️ Level Design / 3D / Creative portfolio on [Artstation](https://www.artstation.com/kerkkoh)
-- 🌄 Notable Level Design / 3D projects: [Nyheim](https://www.artstation.com/artwork/B1bnXl) (+2k downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2633522605)), [Stuart Island](https://www.artstation.com/artwork/WKG3w3) (+17k downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1936423383))
+- 🌄 Notable Level Design / 3D projects: [Nyheim](https://www.artstation.com/artwork/B1bnXl) (+4k downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2633522605)), [Stuart Island](https://www.artstation.com/artwork/WKG3w3) (+17k downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1936423383))
 <!--
 **kerkkoh/kerkkoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

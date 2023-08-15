@@ -6,7 +6,7 @@
 - 🇫🇮 Located in Helsinki, attempting to relocate to 🇧🇪/🇳🇱 ASAP
 - 📫 Reach me through [emails](mailto:superihippo@gmail.com) or [social media](https://twitter.com/iamkerkkoh)
 - 😄 Pronouns: he/him, or any pronouns
-- 🛠️ Active OS project: https://wartorn.me (Gameplay design, Level design, Project Management)
+- 🛠️ Active OS project: [wartorn.io](https://wartorn.io) (Gameplay design, Level design, Project Management)
 - 🐙 I'm active in the open-source community with various [hotfixes](https://github.com/vercel-labs/ai/issues/260), PRs, patches, issues, and other contributions here and elsewhere
 - 🧪 GitLab OS projects in [GitLab](https://gitlab.com/kerkkoh)
 

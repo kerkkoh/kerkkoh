@@ -1,7 +1,6 @@
 ### Hey ya （＾∀＾●）ﾉｼ ✨👋
 
-- 🧑‍🎓 MSc (~09/2023) & BSc (05/2021) both in Computer Science, Master's thesis on AI, Bachelor's thesis on OS database performance comparison.
-- 🤦 MSc diploma is arriving in autumn 🥳
+- 🧑‍🎓 MSc (09/2023) & BSc (05/2021) both in Computer Science, Master's thesis on AI, Bachelor's thesis on OS database performance comparison & data science minor.
 - 👩‍💻 Actively working with TypeScript, Next.js, React, Node.js, Large Language Models (LLM), LangChain, Python, AWS (Lambdas, RDS, S3, SNS... via [Serverless](https://www.serverless.com/)) | Hobbyist with: [Flutter](https://flutter.dev/), C#, Java/Scala, [Deno](https://deno.land/), [Blender](https://www.blender.org/), [Substance 3D Painter](https://www.adobe.com/fi/products/substance3d-painter.html)
 - 🇫🇮 Located in Helsinki, attempting to relocate to 🇧🇪/🇳🇱 ASAP
 - 📫 Reach me through [emails](mailto:superihippo@gmail.com) or [social media](https://twitter.com/iamkerkkoh)

@@ -14,5 +14,5 @@
 #### Hobby stuff
 - 🖼️ Level Design / 3D / Creative portfolio on [Artstation](https://www.artstation.com/kerkkoh)
 - 🌄 Notable Level Design / 3D projects:
-  - [Nyheim](https://www.artstation.com/artwork/B1bnXl) see it in action in this [video from AnarcyHD on Youtube with +27k views 👀](https://www.youtube.com/watch?v=tdS8IJgYcDE) (~5k downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2633522605))
-  - [Stuart Island](https://www.artstation.com/artwork/WKG3w3) (+17k downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1936423383))
+  - [Nyheim](https://www.artstation.com/artwork/B1bnXl) see it in action in this [video from AnarcyHD on Youtube with +36k views 👀](https://www.youtube.com/watch?v=tdS8IJgYcDE) (~20 000 downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2633522605))
+  - [Stuart Island](https://www.artstation.com/artwork/WKG3w3) (~16 000 downloads on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1936423383))

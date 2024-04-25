@@ -6,7 +6,7 @@
 - 📫 Reach me through [emails](mailto:superihippo@gmail.com) or [social media](https://twitter.com/iamkerkkoh)
 - 😄 Pronouns: she/her, or any pronouns
 - 🛠️ Active OS project: [wartorn.io](https://wartorn.io) (Gameplay design, Level design, Project Management)
-- 🐙 I'm active in the open-source community with various [hotfixes](https://github.com/vercel-labs/ai/issues/260), PRs, patches, issues, and other contributions here and elsewhere
+- 🐙 I'm active in the open-source community with various [hotfixes](https://github.com/vercel-labs/ai/issues/260), PRs, patches, [issues](https://github.com/vercel/storage/issues/281), and other contributions here and elsewhere
 - 🧪 GitLab OS projects in [GitLab](https://gitlab.com/kerkkoh)
 
 ---
